@@ -9,11 +9,13 @@
   --social-link-color: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --time-animation: 250ms;
+  --primary-font-family: Roboto, sans-serif;
+  --sec-font-family: Raleway, sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -51,7 +53,7 @@ ul {
   margin-right: 93px;
 
   color: var(--accent);
-  font-family: Raleway, sans-serif;
+  font-family: var(--sec-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
